@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+body {
+  background: white;
+  color: white;
+  font-size: 100%;
+  font-family: 'Source Sans Pro', sans-serif; }
+
+header {
+  background: #08213f; }
+  header .box {
+    padding: 0em 20em 2em 20em;
+    background: #08213f; }
+  header .video {
+    position: relative;
+    outline: 0;
+    overflow: auto;
+    padding-top: 25px;
+    padding-bottom: 40.25%;
+    padding-left: 0;
+    padding-right: 0; }
+    header .video iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+
+.store_buttons {
+  text-align: center;
+  background: #08213f;
+  padding: 0em 0em 5em 0em; }
+  .store_buttons .appStoreLogo, .store_buttons .googlePlayLogo {
+    padding: 0em 0em 2em 0em;
+    width: 20em; }
+
+.desription {
+  text-align: center;
+  color: black;
+  font-size: 3em;
+  padding: 2em; }
+
+.images {
+  text-align: center;
+  padding: 2em 2em 4em 2em;
+  background: #08213f; }
+  .images h6 {
+    font-size: 3em;
+    padding: 1em 0em 2em 0em; }
+
+@media only screen and (max-width: 560px) {
+  body {
+    font-size: 80%; }
+
+  header .box {
+    padding: 0px 0px 0px 0px; }
+
+  .appStoreLogo, .googlePlayLogo {
+    padding: 2em 0em 2em 0em; }
+
+  .desription {
+    padding: 2em 0em 2em 0em; } }
+@media only screen and (max-width: 350px) {
+  body {
+    font-size: 70%; }
+
+  header .box {
+    padding: 0px 0px 0px 0px; }
+
+  .appStoreLogo, .googlePlayLogo {
+    padding: 2em 0em 2em 0em; }
+
+  .desription {
+    padding: 2em 0em 2em 0em; } }
+
+/*# sourceMappingURL=styles.css.map */
